@@ -1,0 +1,66 @@
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(-45deg, #FF9FA9, #FE6595, #E53984,#FF0988);
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+/*.contador{
+    font-size: 2rem;
+    color: #333;
+    
+}
+*/
+.contador{
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 733px;
+    background-color: transparent;
+    border-radius:3px ;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.contador div{
+    height: 170px ;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.contador span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.contador span.tempo {
+    font-size: 10px;
+}
+
+
+#my-canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#my-canvas.active{
+    visibility: visible;
+} 
