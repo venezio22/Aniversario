@@ -1,12 +1,13 @@
 // Data alvo
-const dataAlvo = new Date("2025-02-09T00:00:00");
+const dataAlvo = new Date("2025-01-05T00:00:00");
 
 function atualizarContagemRegressiva() {
   const agora = new Date();
   const diferenca = dataAlvo - agora;
 
   if (diferenca <= 0) {
-    document.getElementById("contador").innerHTML = "<h2>Chegou o grande dia!</h2>";
+    document.getElementById("contador").innerHTML = "<h2 class = 'animate__animated animate__tada'>Chegou o grande dia!</h2>"
+    document.getElementById("contador").innerHTML += "<p><a href='pag2.html'>clique aqui na verdade</a></p>";
     clearInterval(intervalo); // Para o intervalo quando a data é atingida
     iniciarChuvaDeConfetes(); // Inicia os confetes
     return;
@@ -33,7 +34,7 @@ function iniciarChuvaDeConfetes() {
 
   // Gera a chuva de confetes
   confetti({
-    particleCount: 600,
+    particleCount: 500,
     spread: 360,
     origin: { x: 0.5, y: 0.5 },
     colors: ['#bb0000', '#ffffff', '#00bb00', '#0000bb', '#ffcc00']
