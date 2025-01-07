@@ -7,7 +7,7 @@ function atualizarContagemRegressiva() {
 
   if (diferenca <= 0) {
     document.getElementById("contador").innerHTML = "<h2 class = 'animate__animated animate__tada'>Chegou o grande dia!</h2>"
-    document.getElementById("contador").innerHTML += "<p><a href='pag2.html'>clique aqui na verdade</a></p>";
+    document.getElementById("contador").innerHTML += "<a href='pag2.html' class = 'link'>clique aqui na verdade</a>";
     clearInterval(intervalo); // Para o intervalo quando a data é atingida
     iniciarChuvaDeConfetes(); // Inicia os confetes
     return;
