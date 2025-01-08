@@ -10,6 +10,7 @@ body{
 }
 
 .contador{
+    margin-top: 80px;
     margin-left: 25%;
     display: flex;
     align-items: center;
@@ -79,4 +80,114 @@ body{
 }
 .link:hover{
     background-color: #FF0988;
+}
+
+p{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.gfotos{
+    display: flex;
+    
+    justify-content: space-between;
+    height: 700px;
+    width: 100;
+    margin: 50px;
+    background-color: #fff;
+    flex-direction: row;
+
+}
+.g1{
+    display: flex;
+    justify-content: space-between;
+    background-color:rebeccapurple;
+    height: auto;
+    width: 10000px;
+    flex-direction: column;
+}
+.g2{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    background-color:blue;
+    height: auto;
+    width: 10000px;
+}
+
+
+
+
+.foto1{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.foto2{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.foto3{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.foto4{
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.foto5{
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.foto6{
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 768px){
+    .gfotos{
+        flex-wrap: wrap;
+    }
+    .g1, .g2{
+        display: flex;
+    }
+    .foto4, .foto5, .foto6{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    .contador{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .dias, .horas, .minutos, .segundos{
+        display: flex;
+        flex-direction: column;
+    }
 }

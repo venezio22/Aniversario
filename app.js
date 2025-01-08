@@ -1,5 +1,5 @@
 // Data alvo
-const dataAlvo = new Date("2025-01-05T00:00:00");
+const dataAlvo = new Date("2025-02-09T00:00:00");
 
 function atualizarContagemRegressiva() {
   const agora = new Date();
@@ -40,3 +40,4 @@ function iniciarChuvaDeConfetes() {
     colors: ['#bb0000', '#ffffff', '#00bb00', '#0000bb', '#ffcc00']
   });
 }
+
