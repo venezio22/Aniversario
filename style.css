@@ -175,7 +175,6 @@ p{
 @media (max-width: 768px){
     .gfotos{
         flex-wrap: wrap;
-        overflow: hidden;
     }
     .g1, .g2{
         display: flex;
@@ -210,6 +209,7 @@ p{
     .link{
         width: 130px;
     }
+
 }
 @media (max-width: 1024px){
     #cake{
