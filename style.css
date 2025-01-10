@@ -204,6 +204,12 @@ p{
     #ballon{
         height: 150px;
         width: 150px;
+        margin-top: -750px;
+        margin-right: 40px;
+    }
+    #cake{
+        height: 150px;
+        width: 150px;
     }
     .link{
         width: 130px;
@@ -219,7 +225,8 @@ p{
 
 @media (max-width: 1024px){
     #cake{
-        display: none;
+        position: relative;
+        margin-left: 40px;
     }
 }
 
