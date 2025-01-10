@@ -21,6 +21,7 @@ body{
     background-color: transparent;
     border-radius:3px ;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+
 }
 
 .contador div{
@@ -184,13 +185,34 @@ p{
     }
 }
 
+
+
 @media (max-width: 768px){
-    .contador{
+    #contador{
         flex-wrap: wrap;
+        overflow: hidden;
+        flex-direction: column;
     }
     .dias, .horas, .minutos, .segundos{
         display: flex;
         flex-direction: column;
     }
 }
-
+@media (max-width: 768px){
+    #contador{
+        height: 733px;
+        width: 200px;
+    }
+    #ballon{
+        height: 150px;
+        width: 150px;
+    }
+    .link{
+        width: 130px;
+    }
+}
+@media (max-width: 1024px){
+    #cake{
+        display: none;
+    }
+}
