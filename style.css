@@ -223,6 +223,20 @@ p{
     #cake{
         display: none;
     }
+    #body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -245px;
+    }
+    #contador{
+        margin-left: 30px;
+    }
+    #ballon{
+        position: fixed;
+        margin-top: 130px;
+        left: -50px;
+    }
 }
 
 /*estilizaçao da barra de rolagem*/
