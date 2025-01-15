@@ -200,7 +200,7 @@ p{
     #contador{
         height: 733px;
         width: 200px;
-        margin-top: 530px;
+        margin-top: 550px;
     }
     #ballon{
         height: 150px;
@@ -210,7 +210,7 @@ p{
     }
     .link{
         width: 130px;
-        margin-top: 200px ;
+        margin-top: -300px ;
     }
     .foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
         height: 150px;
