@@ -1,5 +1,5 @@
 // Data alvo
-const dataAlvo = new Date("2025-01-09T00:00:00");
+const dataAlvo = new Date("2025-02-09T00:00:00");
 
 function atualizarContagemRegressiva() {
   const agora = new Date();
